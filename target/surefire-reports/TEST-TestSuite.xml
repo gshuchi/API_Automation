@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.225" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shuchi\Intellij-workspace\sample API\target\test-classes;C:\Users\Shuchi\Intellij-workspace\sample API\target\classes;C:\Users\Shuchi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shuchi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shuchi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shuchi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Shuchi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Shuchi\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Shuchi\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Shuchi\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Shuchi\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Shuchi\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Shuchi\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Shuchi\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shuchi\AppData\Local\Temp\surefire8056863435290576657\surefirebooter1558339887177333008.jar C:\Users\Shuchi\AppData\Local\Temp\surefire8056863435290576657 2023-02-18T17-54-14_098-jvmRun1 surefire5085858814355277485tmp surefire_06075553892125083764tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shuchi\Intellij-workspace\sample API\target\test-classes;C:\Users\Shuchi\Intellij-workspace\sample API\target\classes;C:\Users\Shuchi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shuchi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shuchi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shuchi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shuchi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Shuchi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Shuchi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Shuchi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Shuchi\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Shuchi\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Shuchi\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Shuchi\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Shuchi\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Shuchi\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Shuchi\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\Shuchi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shuchi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\Shuchi\Intellij-workspace\sample API"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shuchi\AppData\Local\Temp\surefire8056863435290576657\surefirebooter1558339887177333008.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="Shuchi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Shuchi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shuchi\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\Shuchi\Intellij-workspace\sample API"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Shuchi\AppData\Local\Android\Sdk\platform-tools;C:\Users\Shuchi\AppData\Local\Android\Sdk\build-tools;C:\Users\Shuchi\AppData\Local\Android\Sdk\platforms;C:\Users\Shuchi\AppData\Local\Android\Sdk\tools;C:\Users\Shuchi\AppData\Local\Android\Sdk\emulator;C:\Maven\apache-maven-3.9.0\bin;C:\Users\Shuchi\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Shuchi\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="getRequest" classname="test.RestAPIExamples" time="4.796">
+    <system-out><![CDATA[200
+]]></system-out>
+  </testcase>
+  <testcase name="postRequest" classname="test.RestAPIExamples" time="6.67">
+    <system-out><![CDATA[201
+{
+    "job": null,
+    "name": null,
+    "id": "23",
+    "createdAt": "2023-02-18T12:21:43.048Z"
+}
+{
+    "job": null,
+    "name": null,
+    "id": "23",
+    "createdAt": "2023-02-18T12:21:43.048Z"
+}
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+23
+{
+    
+}
+{
+    
+}
+]]></system-out>
+  </testcase>
+  <testcase name="putRequest" classname="test.RestAPIExamples" time="1.186">
+    <system-out><![CDATA[{
+    "updatedAt": "2023-02-18T12:21:48.982Z"
+}
+{
+    "updatedAt": "2023-02-18T12:21:48.982Z"
+}
+200
+]]></system-out>
+  </testcase>
+  <testcase name="deleteRequest" classname="test.RestAPIExamples" time="1.366">
+    <system-out><![CDATA[
+
+204
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample RestAPI Examples">
+    <test verbose="2" preserve-order="true" name="C:/Users/Shuchi/Intellij-workspace/sample API">
+        <classes>
+            <class name="test.RestAPIExamples">
+                <methods>
+                    <include name="getRequest"/>
+                    <include name="postRequest"/>
+                    <include name="putRequest"/>
+                    <include name="deleteRequest"/>
+                </methods>
+            </class>
+            <class name="test.BuilderDesignPattern">
+                <methods>
+                    <include name="printStudentinfo"/>
+                </methods>
+            </class>
+            <class name="test.DataParams">
+                <methods>
+                    <include name="printJSONData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

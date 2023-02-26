@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample RestAPI Examples" duration-ms="14064" started-at="2023-02-18T17:54:16 IST" finished-at="2023-02-18T17:54:30 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/Shuchi/Intellij-workspace/sample API" duration-ms="14064" started-at="2023-02-18T17:54:16 IST" finished-at="2023-02-18T17:54:30 IST">
+      <class name="test.RestAPIExamples">
+        <test-method status="PASS" signature="getRequest()[pri:1, instance:test.RestAPIExamples@520a3426]" name="getRequest" duration-ms="4789" started-at="2023-02-18T17:54:16 IST" finished-at="2023-02-18T17:54:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method status="PASS" signature="postRequest()[pri:2, instance:test.RestAPIExamples@520a3426]" name="postRequest" duration-ms="6425" started-at="2023-02-18T17:54:21 IST" finished-at="2023-02-18T17:54:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="putRequest()[pri:3, instance:test.RestAPIExamples@520a3426]" name="putRequest" duration-ms="1427" started-at="2023-02-18T17:54:27 IST" finished-at="2023-02-18T17:54:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+        <test-method status="PASS" signature="deleteRequest()[pri:4, instance:test.RestAPIExamples@520a3426]" name="deleteRequest" duration-ms="1353" started-at="2023-02-18T17:54:29 IST" finished-at="2023-02-18T17:54:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+      </class> <!-- test.RestAPIExamples -->
+    </test> <!-- C:/Users/Shuchi/Intellij-workspace/sample API -->
+  </suite> <!-- Sample RestAPI Examples -->
+</testng-results>

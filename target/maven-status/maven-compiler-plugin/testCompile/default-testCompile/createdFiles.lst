@@ -1,0 +1,7 @@
+test\RequestPayload.class
+test\JsonToPojo$1.class
+test\JsonToPojo.class
+test\DataParams.class
+test\ResponsePayload.class
+test\PojoToJson.class
+test\RestAPIExamples.class
