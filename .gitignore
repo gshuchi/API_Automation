@@ -5,3 +5,4 @@
 /.settings/
 /APIAutomation.iml
 /.gitignore
+/target/
